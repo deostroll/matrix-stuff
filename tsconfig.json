@@ -16,6 +16,7 @@
     "files": [
         "src/index.ts",
         "src/matrix/index.ts",
+        "src/util/index.ts",
         "test/matrix.ts"
     ],
     "atom": {
