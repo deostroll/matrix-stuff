@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "bld",
+        "node_modules",
+        "typings"
+    ],
+    "filesGlob": [
+        "src/**/*.ts"
+    ],
+    "files": [
+        "src/index.ts",
+        "src/matrix/index.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

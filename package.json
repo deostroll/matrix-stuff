@@ -1,0 +1,31 @@
+{
+  "name": "matrix-stuff",
+  "version": "1.0.0",
+  "description": "some matrix operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deostroll/matrix-stuff.git"
+  },
+  "keywords": [
+    "matrix",
+    "node",
+    "typescript"
+  ],
+  "author": "deostroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deostroll/matrix-stuff/issues"
+  },
+  "homepage": "https://github.com/deostroll/matrix-stuff#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "typings": "^0.7.12"
+  }
+}
