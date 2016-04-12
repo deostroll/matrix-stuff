@@ -11,6 +11,7 @@ var Cell = (function () {
     function Cell(x, y) {
         this.x = x;
         this.y = y;
+        this.cellType = CellType.normal;
     }
     Cell.prototype.toString = function (opt) {
         if (opt) {

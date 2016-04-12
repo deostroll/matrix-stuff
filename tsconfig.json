@@ -10,11 +10,13 @@
         "typings"
     ],
     "filesGlob": [
-        "src/**/*.ts"
+        "src/**/*.ts",
+        "test/*.ts"
     ],
     "files": [
         "src/index.ts",
-        "src/matrix/index.ts"
+        "src/matrix/index.ts",
+        "test/matrix.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

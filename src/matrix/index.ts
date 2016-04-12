@@ -14,6 +14,7 @@ export class Cell {
     public x: number,
     public y: number) {
       //constructor is empty
+      this.cellType = CellType.normal;
     }
   toString(opt: string) {
     if(opt) {
